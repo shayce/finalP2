@@ -15,7 +15,7 @@ app.get("/", (req, res) => {
     res.json({ message:"Welcome to Fisher Application."});
 });
 //set port, listen for requests
-const PORT = process.env.PORT || 9600;
+const PORT = process.env.PORT || 5432;
 app.listen(PORT, () => {
     console.log('Server is running on port $[PORT},');
 });

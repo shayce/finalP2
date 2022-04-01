@@ -1,12 +1,12 @@
 {
-  "name": "my-p2",
-  "version": "0.0.0",
+  "name": "nodejs-express-sequelize-postgresql",
+  "version": "1.0.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "echo\"Error: no test specidied\"&& exit 1"
   },
   "private": true,
   "dependencies": {
